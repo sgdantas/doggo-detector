@@ -23,16 +23,11 @@ In this project, Udacity in collaboration with Figure Eight provides a data engi
     .
     ├── saved_models     
     │   ├── weights.best.from_scratch.hdf5  # trained model built from scratch
-    │   └── weights.best.inception.hdf5     # trained model using inception weights
+    │   └── weights.best.dognet.hdf5     # trained model using resnet weights
     │   └── weights.best.VGG16.hdf5         # trained model using VGG16 weights
-    ├── haarcascades                   
-    │   ├── haarcascade_frontalface_alt.xml # XML file for use with the OpenCV face detector class
     ├── images                              # images used to test the algorithm's predictions
-    ├── dog_app.html                        # jupyter notebook saved in html format
     ├── dog_app.ipynb                       # jupyter notebook saved in ipynb format
-    ├── extract_bottleneck_features.py      # python script with provided functions
-    ├── LICENSE.txt                         # license text
-    ├── CODEOWNERS                          # owners of the code
+    ├── extract_bottleneck_features.py      # python script with bottleneck features
     └── README.md
 
 
